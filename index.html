@@ -1,8 +1,11 @@
-<html>
+<html ng-app>
   <head>
     <title>Kwamfundo</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="angular.min.js"></script>
   </head>
   <body>
+    <input type="tex" ng-model="name" placeholder="Enter name" />
+    <p>Your name is {{name}}</p>
   </body>
 </html>
